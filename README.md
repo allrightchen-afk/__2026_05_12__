@@ -1,20 +1,46 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Neon Breakout
 
-# Run and deploy your AI Studio app
+A polished retro arcade brick breaker game built with React, TypeScript, and the Canvas API. Featuring neon visuals, smooth physics, and dynamic animations.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/bb89d9a9-7ce7-4e8f-a477-c6c15f679d22
+- **Neon Aesthetics**: Vibrant colors and glowing effects.
+- **Fluid Controls**: Support for both keyboard and mouse input.
+- **Responsive Design**: Polished UI with smooth transitions using Framer Motion.
+- **Arcade Gameplay**: Classic brick-breaking action with scoring and lives system.
 
-## Run Locally
+## Getting Started
 
-**Prerequisites:**  Node.js
+### Prerequisites
 
+- [Node.js](https://nodejs.org/) (v18 or later recommended)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Installation
+
+1. Clone the repository or download the source code.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the App
+
+Start the development server:
+```bash
+npm run dev
+```
+
+The application will be available at `http://localhost:3000`.
+
+## Build for Production
+
+To create a production build:
+```bash
+npm run build
+```
+
+The output will be in the `dist` directory.
+
+## License
+
+This project is licensed under the Apache-2.0 License.
